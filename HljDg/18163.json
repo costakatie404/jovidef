@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/18292816.html
+
+原标题：Architecture：静态资源分发CDN整体架构思路
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/72917150.html
+
+原标题：golang 系统设计分布式任务调度
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29354817.html
+
+原标题：Git 标签版本标记发布管理
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29481795.html
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74836950.html
+
+原标题：golang traceId spanId 传递方案
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/08272928.html
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/41836070.html
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85906958.html
+
+原标题：golang 系统设计分表跨表 join 业务处理方案
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/30492915.html
+
+原标题：无用对象回收抑制内存上涨
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85958181.html
+
+原标题：golang 系统设计 protobuf oneof 类型业务场景
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/30503514.html
+
+原标题：golang cron 定时任务防并发执行
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/31503028.html
+
+原标题：golang excel 简单读写操作示例
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29684739.html
+
+原标题：golang es 分页深分页性能优化
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/10403625.html
+
+原标题：架构笔记：海量日志处理架构选型与实践
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/31514014.html
+
+原标题：golang 系统设计本地缓存与分布式缓存
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/42402839.html
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/52747169.html
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/21504747.html
+
+原标题：多版本开发环境共存配置
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29270605.html
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/08170706.html
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85958684.html
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/60800362.html
+
+原标题：golang 系统设计 cpu 高占用排查步骤
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/59917030.html
+
+原标题：nodejs 接口限流防刷代码实现
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/54836069.html
+
+原标题：golang 系统设计降级策略开关配置方案
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74247462.html
+
+原标题：css 变量主题切换方案实现
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85907069.html
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/04139392.html
+
+原标题：实践：前后端时间格式统一规范落地实践
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/40492817.html
+
+原标题：超大数据集分页性能优化方案
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/26351405.html
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/71838170.html
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96067473.html
+
+原标题：golang 灰度权重流量分发简单实现
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/42684047.html
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/18240351.html
+
+原标题：新手向：Mac/Windows开发环境差异踩坑
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/07240426.html
+
+原标题：Troubleshooting：依赖安装失败完整排查清单
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/07170605.html
+
+原标题：避坑：正则回溯引发CPU占满DoS风险
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/41503925.html
+
+原标题：golang 系统设计分表扩容数据平滑迁移思路
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/20494736.html
+
+原标题：RPC 报文大小上限调优大请求
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/09391796.html
+
+原标题：golang 系统设计 README 开源文档模板
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/17151405.html
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85058582.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74895069.html
+
+原标题：开源项目构建失败排查步骤
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/18281706.html
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96069284.html
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/15047360.html
+
+原标题：5分钟快速搭建个人技术文档站点
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/51603927.html
+
+原标题：网络读取超时设置连接挂起防护
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/48595808.html
+
+原标题：从零学习简单分页逻辑实现思路
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/41686960.html
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/52795840.html
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/52725258.html
+
+原标题：golang 单例模式实现几种方式
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/30806928.html
+
+原标题：golang redis 客户端业务使用
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/19684928.html
+
+原标题：golang mongodb 索引优化查询速度
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96058469.html
+
+原标题：WebSocket 双向通信 demo 开发
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/60796958.html
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/48491704.html
+
+原标题：线上故障：消息队列重复消费业务处理异常
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/18130475.html
+
+原标题：golang rate‑limiter 限流组件
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/52725159.html
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96039282.html
+
+原标题：golang 系统设计多级缓存更新策略
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/04463696.html
+
+原标题：实战项目：GitHubAction自动测试构建实践
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74930360.html
+
+原标题：Architecture：配置中心架构，动态配置设计思路
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/95042586.html
+
+原标题：nodejs 全局异常捕获进程防护
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/63725359.html
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/53736159.html
+
+原标题：golang gitlab ci 配置自动构建镜像
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/07140474.html
+
+原标题：golang gorm 预加载关联查询优化
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/04737172.html
+
+原标题：golang 系统设计缓存空值防止缓存穿透实现
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/60806020.html
+
+原标题：golang 链路追踪简易实现方案
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/73806172.html
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/16462793.html
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/48685848.html
+
+原标题：golang kafka 批量发送消费优化
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/70828152.html
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/60029282.html
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/55917048.html
+
+原标题：Issue复现：内存泄漏定位完整复盘记录
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/84806061.html
+
+原标题：数据库排序规则统一结果一致
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/73896959.html
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/30493404.html
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74829293.html
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/06128171.html
+
+原标题：golang 系统设计日志轮转切割防止磁盘占满
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/19391707.html
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29392815.html
+
+原标题：入门实践：简单重试逻辑封装实现
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/60803637.html
+
+原标题：golang 系统设计会话共享多实例部署
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74836960.html
+
+三、实战开发｜Practice
+原标题：golang k8s secret 加密敏感信息
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/63806182.html
+
+原标题：golang 系统设计分布式会话方案对比
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85130393.html
+
+原标题：程序预加载加快服务启动速度
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/59793929.html
+
+原标题：golang 系统设计蓝绿发布滚动发布对比
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/81804848.html
+
+原标题：golang 分库分表简单路由实现
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/37560684.html
+
+原标题：golang 系统设计 webhook 回调接口设计要点
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/06461414.html
+
+原标题：开发复盘：分库分表本地模拟与数据路由实践
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/84805148.html
+
+原标题：部署实践：服务器防火墙安全组配置实践
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29313928.html
+
+原标题：线上异常：布隆过滤器误判造成业务逻辑异常
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85250392.html
+
+原标题：JWT 令牌过期异常处理
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/48694819.html
+
+原标题：JWT 令牌过期异常处理
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/08281806.html
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/77149581.html
+
+原标题：nodejs http 服务性能调优实战
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85957463.html
+
+原标题：golang 系统设计 csrf 接口防护实现
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/71925146.html
+
+原标题：消息消费重试次数限制防爆炸
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/08390697.html
+
+原标题：golang minio 存储桶权限管控配置
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/65069472.html
+
+原标题：golang 配置文件多环境加载
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/41583514.html
+
+原标题：大事务拆分防止连接池耗尽
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/14372514.html
+
+原标题：golang 系统设计 rest 版本管理几种方案对比
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/18250795.html
+
+原标题：日志输出规范防止磁盘爆满
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/40816929.html
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/63624250.html
+
+原标题：SDK 版本兼容线上崩溃修复
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96038480.html
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/84258490.html
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/85251473.html
+
+原标题：分布式任务调度集群原型开发
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96090706.html
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/26472584.html
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74930393.html
+
+原标题：开发复盘：大JSON解析分批处理避免内存溢出
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/20402839.html
+
+原标题：Issue：日志输出包含敏感信息造成泄露风险
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/07179695.html
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/93025158.html
+
+原标题：前端静态缓存更新生效处理
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/97191706.html
+
+原标题：golang 令牌桶限流中间件 gin
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/07179584.html
+
+原标题：nodejs 集群模式多核利用实现
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/31524038.html
+
+原标题：接口签名验签完整安全方案
+简介：golang 项目目录分层规范设计，Go 后端项目目录分层规范，按领域分层，提高项目可读性可维护性。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96051393.html
+
+原标题：性能复盘：磁盘Swap大量使用系统卡顿优化
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74068475.html
+
+原标题：调试工具断点调试变量查看技巧
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/30574738.html
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/15250526.html
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29391793.html
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/30514059.html
+
+原标题：golang 系统设计第三方调用超时重试熔断
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96058181.html
+
+四、架构设计｜Architecture
+原标题：golang 系统设计本地缓存 redis 缓存多级组合
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/72028143.html
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/30506950.html
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/75917382.html
+
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/69704639.html
+
+原标题：方案设计：高可用Redis集群架构选型对比
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/37573739.html
+
+原标题：坑点：缓存过期策略不当引发业务异常
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/84947172.html
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/59684737.html
+
+原标题：golang 系统设计配置多环境本地开发适配方案
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/74149283.html
+
+原标题：踩坑记录：分页逻辑错误造成数据重复输出
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/07157073.html
+
+原标题：实战：基于DockerCompose搭建本地开发栈
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/29354748.html
+
+原标题：Practice：实现请求大小限制中间件防护大报文
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/64060383.html
+
+原标题：golang redis 连接池参数最佳值
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/08381393.html
+
+原标题：Troubleshooting：k8s镜像拉取失败镜像仓库网络问题
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/63796848.html
+
+原标题：设计思考：分布式会话架构选型对比
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/52624148.html
+
+原标题：golang gitlab ci 配置自动构建镜像
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/96169582.html
+
+原标题：golang html 模板渲染简单示例
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/92917061.html
+
+原标题：golang 系统设计接口超时设计原则梳理
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/18270615.html
+
+原标题：golang 系统设计第三方接口调用封装思路
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://www.blog.rclls.cn/uhnyn/43848470.html
+
+?
